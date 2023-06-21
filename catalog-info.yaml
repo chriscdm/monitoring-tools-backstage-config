@@ -1,1 +1,27 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: monitoring-tools-backstage-config
+  title: Monitoring Tools
+  links:
+    - url: https://dvagov.sharepoint.com/sites/OITECOECCCOM/SitePages/AppDynamics.aspx
+      title: AppDynamics Documentation
+      icon: web
+    - url: https://dvagov.sharepoint.com/sites/OITECSO/SitePages/VAEC-Dynatrace.aspx
+      title: Dynatrace Documentation
+      icon: web
+    - url: https://dvagov.sharepoint.com/sites/OITECOECCCOM/SitePages/Splunk.aspx
+      title: Splunk Documentation
+      icon: web
+  annotations:
+    github.com/project-slug: ***/monitoring-tools-backstage-config
+    backstage.io/techdocs-ref: dir:.
+  description: Monitoring tools enable continuous application performance monitoring (APM) and health monitoring for product teams
+  tags:
+    - utility
+    - monitoring
+spec:
+  type:  ***
+  lifecycle: production
+  owner: ***
+  system: ***
