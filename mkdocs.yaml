@@ -1,1 +1,3 @@
-
+site_name: 'VA Notify Overview'
+nav:
+  - Home: index.md
